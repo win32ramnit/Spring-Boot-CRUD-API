@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/smsdb
+    username: root
+    password: temp123#
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  #jpa:
+     #show-sql: true
+  flyway:
+    locations: classpath:db/migration
+server:
+  port: 9090
+  servlet:
+    context-path: /sms/api
