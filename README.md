@@ -1,4 +1,12 @@
 # Student Management System
+
+## Prerequisites:
+	- Java1.8
+	- MySQL server
+## Modify *application.yml* accordingly
+	- url [schema name should be available on MySQL server]
+	- username
+	- password
 ## Postman APIs
 ### GET:
 - Retrieve list of students
@@ -39,3 +47,12 @@
 ### DELETE:
 - Delete student with ID
   - http://localhost:9090/sms/api/students/{studentId}
+
+## MAVEN BUILD INTRUCTIONS
+### clean up target
+    mvn clean
+###  install the package into the local repository and .jar file created inside the target folder
+    mnv install
+### Run Jar file 
+    Open command promp and navigate target folder
+    java -jar Assignment-1.0.0.jar (hit the enter key)
