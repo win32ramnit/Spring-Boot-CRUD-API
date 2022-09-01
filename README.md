@@ -1,4 +1,4 @@
-# Student Management System
+# Spring Boot CURD API Example
 
 ## Prerequisites:
 	- Java1.8
